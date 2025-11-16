@@ -14,10 +14,10 @@ const Skills = () => {
     {
       category: "Backend",
       skills: [
-        { name: "Node.js", level: 80 },
-        { name: "Python", level: 75 },
+        { name: "Python", level: 85 },
+        { name: "Node.js", level: 85 },
+        { name: "REST APIs", level: 80 },
         { name: "PostgreSQL", level: 70 },
-        { name: "REST APIs", level: 85 },
       ],
     },
     {

@@ -5,40 +5,22 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured online shopping platform with payment integration, user authentication, and admin dashboard.",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates and team features.",
-      tags: ["TypeScript", "Firebase", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
-    },
-    {
-      title: "Portfolio Website",
-      description: "Modern, responsive portfolio website with smooth animations and interactive elements.",
-      tags: ["React", "CSS3", "Animations"],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Real-time weather application with location-based forecasts and interactive maps.",
-      tags: ["API Integration", "Charts", "Geolocation"],
+      title: "Weather App",
+      description: "Real-time weather application with location-based forecasts and interactive weather data visualization.",
+      tags: ["HTML", "CSS", "JavaScript", "API Integration"],
       image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=600&fit=crop",
     },
     {
-      title: "Social Media App",
-      description: "Feature-rich social networking platform with posts, comments, and user profiles.",
-      tags: ["Full Stack", "WebSocket", "PostgreSQL"],
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
+      title: "Slidob Dashboard for Litter Dispenser",
+      description: "IoT dashboard for monitoring and controlling smart litter dispenser systems with real-time data tracking.",
+      tags: ["Python", "IoT", "Dashboard", "Backend"],
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     },
     {
-      title: "Analytics Dashboard",
-      description: "Data visualization dashboard with interactive charts and real-time metrics.",
-      tags: ["D3.js", "React", "Data Viz"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      title: "eCommerce Website",
+      description: "Full-featured online shopping platform with product catalog, shopping cart, and user authentication.",
+      tags: ["HTML", "CSS", "Node.js", "Full Stack"],
+      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
     },
   ];
 
@@ -56,7 +38,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {projects.map((project, index) => (
             <Card
               key={index}
