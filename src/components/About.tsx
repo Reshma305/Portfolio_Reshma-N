@@ -29,7 +29,7 @@ const About = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            I'm a college student passionate about UI/UX design and full-stack development. 
+            I'm an M.Tech Integrated CSE student passionate about UI/UX design and full-stack development. 
             I specialize in creating intuitive user interfaces and building powerful backend solutions using Python and Node.js.
           </p>
         </div>
@@ -63,7 +63,7 @@ const About = () => {
                 My Journey
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                As a college student, I combine my academic learning with hands-on development experience. 
+                As an M.Tech Integrated CSE student, I combine my academic learning with hands-on development experience. 
                 My passion for design and development drives me to create user-centric solutions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
