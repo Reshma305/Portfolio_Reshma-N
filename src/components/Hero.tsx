@@ -23,13 +23,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center text-white">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 animate-fade-in-up">
-            Welcome to My Portfolio
+            Hi, I'm Reshma
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 text-white/90 animate-fade-in-up max-w-2xl mx-auto" style={{ animationDelay: "0.2s" }}>
-            Full-Stack Developer & Creative Problem Solver
+            College Student | UI/UX Designer | Full Stack Developer
           </p>
           <p className="text-base sm:text-lg mb-8 md:mb-12 text-white/80 animate-fade-in-up max-w-3xl mx-auto leading-relaxed" style={{ animationDelay: "0.4s" }}>
-            Crafting elegant solutions with modern technologies. Specialized in building responsive web applications with clean, maintainable code.
+            Passionate about creating beautiful user experiences and building robust backend solutions with Python and Node.js
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
             <Button

@@ -29,9 +29,8 @@ const About = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            I'm a passionate developer dedicated to creating exceptional digital experiences. 
-            With expertise in modern web technologies, I transform ideas into elegant, functional applications 
-            that make a difference.
+            I'm a college student passionate about UI/UX design and full-stack development. 
+            I specialize in creating intuitive user interfaces and building powerful backend solutions using Python and Node.js.
           </p>
         </div>
 
@@ -64,31 +63,30 @@ const About = () => {
                 My Journey
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                My journey in web development began with a curiosity about how things work on the internet. 
-                What started as a hobby quickly evolved into a passion for creating meaningful digital solutions.
+                As a college student, I combine my academic learning with hands-on development experience. 
+                My passion for design and development drives me to create user-centric solutions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Today, I specialize in full-stack development, focusing on building responsive, accessible, 
-                and performant web applications. I'm constantly learning and adapting to new technologies 
-                to deliver the best possible results.
+                I work across the full stack - from designing intuitive UI/UX interfaces to building robust backends 
+                with Python and Node.js. I'm constantly exploring new technologies and best practices to grow my skills.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-primary/10 p-4 rounded-lg text-center transform hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-primary mb-2">5+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-3xl font-bold text-primary mb-2">UI/UX</div>
+                <div className="text-sm text-muted-foreground">Design</div>
               </div>
               <div className="bg-accent/10 p-4 rounded-lg text-center transform hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-accent mb-2">50+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
+                <div className="text-3xl font-bold text-accent mb-2">Python</div>
+                <div className="text-sm text-muted-foreground">Backend</div>
               </div>
               <div className="bg-primary/10 p-4 rounded-lg text-center transform hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-primary mb-2">30+</div>
-                <div className="text-sm text-muted-foreground">Happy Clients</div>
+                <div className="text-3xl font-bold text-primary mb-2">Node.js</div>
+                <div className="text-sm text-muted-foreground">Backend</div>
               </div>
               <div className="bg-accent/10 p-4 rounded-lg text-center transform hover:scale-105 transition-transform">
-                <div className="text-3xl font-bold text-accent mb-2">∞</div>
-                <div className="text-sm text-muted-foreground">Lines of Code</div>
+                <div className="text-3xl font-bold text-accent mb-2">Full Stack</div>
+                <div className="text-sm text-muted-foreground">Development</div>
               </div>
             </div>
           </div>
